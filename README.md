@@ -11,42 +11,34 @@ DimScreen is a lightweight **Electron.js desktop application** that allows you t
 
 ---
 
-## 🚀 Installation & Running the App
+## 🚀 Installation & Running the App  
 
 1. **Clone the repository**  
-Use the following commands to clone and navigate to the project folder:
-
-
-`git clone https://github.com/YOUR_USERNAME/Multi-Display-DimScreen-Electron-js-app.git`
-`cd Multi-Display-DimScreen-Electron-js-app`
-2. **Install dependencies**
-Run this command to install all required packages:
-
-`npm install`
-3. **Run the app in development**
-Start the app with:
-`npm start`
-The app will appear in your system tray.
-
-#🎮 Usage
-Keyboard Shortcuts:
-
-CTRL + Arrow Up → Increase brightness
-
-CTRL + Arrow Down → Decrease brightness
-
-You can also access and control brightness directly from the system tray icon.
-
-📦 Packaging as an Executable (.exe)
-DimScreen uses electron-builder to create executable files. Run:
-`npm run build`
-The .exe file will be generated in the dist/ folder. You can distribute it to run on Windows without Node.js installed.
-
-**🛠️ Tech Stack**
-Electron.js – Desktop application framework
-JavaScript – Core application logic
-Node.js – Backend runtime for Electron
-
-**⚠️ Notes**
--Ensure Node.js is installed before running locally.
--For multiple monitors, make sure all displays are connected and recognized by the system.
+Use the following commands to clone and navigate to the project folder:  
+`git clone https://github.com/YOUR_USERNAME/Multi-Display-DimScreen-Electron-js-app.git`  
+`cd Multi-Display-DimScreen-Electron-js-app`  
+2. **Install dependencies**  
+Run this command to install all required packages:  
+`npm install`  
+3. **Run the app in development**  
+Start the app with:  
+`npm start`  
+The app will appear in your system tray.  
+**🎮 Usage**  
+Keyboard Shortcuts:  
+CTRL + Arrow Up → Increase brightness  
+CTRL + Arrow Down → Decrease brightness  
+You can also access and control brightness directly from the system tray icon.  
+📦 Packaging as an Executable (.exe)  
+DimScreen uses electron-builder to create executable files.  
+Run:  
+`npm run build`  
+The .exe file will be generated in the dist/ folder. You can distribute it to run on Windows without Node.js installed.  
+  
+**🛠️ Tech Stack**  
+Electron.js – Desktop application framework  
+JavaScript – Core application logic  
+Node.js – Backend runtime for Electron  
+**⚠️ Notes**  
+-Ensure Node.js is installed before running locally.  
+-For multiple monitors, make sure all displays are connected and recognized by the system.  
